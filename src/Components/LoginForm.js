@@ -33,36 +33,36 @@ const handleSubmit = async(e) => {
 };
 
   return(
-    <div className = "wrapper">
-     <div className = "form">
-      <h1  className = "title">Conversations</h1>
-      <form onSubmit = {handleSubmit}>
+    <div className="wrapper">
+     <div className="form">
+      <h1 className="title">Conversations</h1>
+      <form onSubmit={handleSubmit}>
        <input
        type ="text"
-       className = "input"
-       value = {username}
-       placeholder ="testuser"
-       onChange = {(e) => {setUsername(e.target.value)}}
+       className= "input"
+       value= {username}
+       placeholder="testuser"
+       onChange= {(e) => {setUsername(e.target.value)}}
        required 
        />
 
        <input
-       type ="text"
-       className = "input"
-       value = {password}
-       placeholder ="12345678"
+       type="text"
+       className= "input"
+       value= {password}
+       placeholder="12345678"
        onChange = {(e) => {setPassword(e.target.value)}}
        required />
     
-      <div align = "center">
+      <div align="center">
         <button type ="submit" className="button">
-         <span>Start Convo's </span>
+         <span>Let's talk!</span>
         </button>
-      </div>
-   </form>
-   <h1>{error}</h1>
+       </div>
+      </form>
+     <h1>{error}</h1>
+   </div>
   </div>
- </div>
   );
 };
 
