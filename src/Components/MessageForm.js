@@ -17,7 +17,7 @@ const MessageForm = (props) => {
 
   };
 
-  const handleSubmit =(event) => {
+  const handleSubmit = (event) => {
      event.preventDefault();
 
      const text = value.trim();
