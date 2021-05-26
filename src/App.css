@@ -217,19 +217,20 @@
   .wrapper {
     height: 100vh;
     width: 100%;
-    background: #6B7280;
+    background:#FCE7F3;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
+ 
   .input {
     color: #333;
     font-size: 1.2rem;
-     margin: 0 auto;
+    margin: 0 auto;
     padding: 1.5rem 2rem;
     border-radius: 0.2rem;
-    background-color: rgb(255, 255, 255);
+    background-color:whitesmoke;
     border: none;
     width: 90%;
     display: block;
@@ -245,16 +246,16 @@
   
   .title {
     text-align: center;
-    color:#FCD34D;
+    color: #1F2937;
     margin-bottom: 30px;
     width: 100%;
     font-size: 2.3rem;;
   }
   
   .button {
-    border-radius: 4px;
+    border-radius: 10px;
     border: none;
-    background-color: white;
+    background-color: whitesmoke;
     color: black;
     text-align: center;
     text-transform: uppercase;
