@@ -220,6 +220,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #DDD6FE;
     animation: bganimation 4sec infinite;
   }
   
